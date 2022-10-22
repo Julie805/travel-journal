@@ -2,3 +2,71 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2B283A;
+}
+
+header {
+    width: 550px;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+    background: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+h1 {
+    height: 16px;
+    left: 244px;
+    top: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+article {
+    display: flex;
+    align-items: flex-start; 
+    gap: 30px;  
+    padding: 35px 20px;
+}
+
+.place--location {
+    display: flex;
+    align-items: center;  
+    gap: 7px;   
+}
+
+.place--country {
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+}
+
+.place--map {
+    text-decoration: underline;
+    color: #918E9B;  
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.place--dates {
+    font-weight: 700;
+}
+
+.place--about {
+    line-height: 150%;
+}
