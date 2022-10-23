@@ -37,13 +37,15 @@ article {
     display: flex;
     align-items: flex-start; 
     gap: 30px;  
-    padding: 35px 20px;
+    padding: 35px;
+    margin: 0 20px;
+    border-bottom: 1px solid #F5F5F5;
 }
 
 .place--location {
     display: flex;
     align-items: center;  
-    gap: 7px;   
+    gap: 7px;  
 }
 
 .place--country {
@@ -60,7 +62,7 @@ article {
 h2 {
     font-weight: 700;
     font-size: 25px;
-    line-height: 30px;
+    margin: 5px 0 25px
 }
 
 .place--dates {
@@ -70,3 +72,4 @@ h2 {
 .place--about {
     line-height: 150%;
 }
+
